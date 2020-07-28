@@ -4,11 +4,12 @@ html{
 header{
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(#0C0B12 25%,#858585 50%,#f2f2f2);
+    background: linear-gradient(#0C0B12 25%,#f3ef17 50%,#f2f2f2);
     border-width: 1px;
     border-style: solid;
     border-color: goldenrod;
 }
+
 body{
     margin-top: -1px;
 }
@@ -23,7 +24,7 @@ body{
 #Profile img{
     position: absolute;
    display: inline-flex;
-    top: 130px;
+    top: 200px;
     left: 100px;
     display: inline-block;
     border-style: solid;
@@ -33,10 +34,11 @@ body{
     z-index: 1;
 }
 .Intro-text{
+    color: gold;
     position: absolute;
     text-align: center;
     left: 450px;
-    top: 150px;
+    top: 200px;
 }
 #About{
     position: relative;
@@ -86,9 +88,13 @@ body{
     border-radius: 5px;
     padding: 25px;
     top: 900px;
-    left: 190px;
+    left: 195px;
 }
-#Orginizations{
+.all-contaner{
+    display: flex;
+}
+#Orginizations1{
+    
     position: absolute;
     background-color: floralwhite;
     font-size: 25px;
@@ -97,4 +103,58 @@ body{
     padding: 5px;
     top: 720px;
     left: 40px;
+}
+#Orginization1{
+    position: relative;
+    margin-top: 500px;
+    border-radius: 0px;
+}
+#skills{
+    position: absolute;
+    top: 1250px;
+    background-color:  rgb(236, 185, 82);
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 25px;
+}
+#skills-text{
+    position: absolute;
+    top: 1330px;
+    background-color: floralwhite;
+    width: 310px;
+    border-radius: 5px;
+    left:37px;
+    font-size: 20px;
+
+}
+#Goals{
+    
+    position: absolute;
+    background-color: rgb(236, 185, 82);
+    top: 1260px;
+    left: 453px;
+    border-radius: 5px;
+}
+#Goals-text{
+    position: absolute;
+    background-color: floralwhite;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 750px;
+    top: 1350px;
+    left: 450px;
+}
+#ASC{
+    display: inline;
+}
+#ATC{
+    display: inline;
+}
+#Red{
+    display: inline;
+}
+#BW4{
+    display: inline;
 }
